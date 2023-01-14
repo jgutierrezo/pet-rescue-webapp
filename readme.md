@@ -19,18 +19,18 @@ Little Paws serves as a platform to adopt and put up for adoption pets. The user
 
 ## Technologies
 
--   PHP
--   Laravel
--   Breeze
--   Swiperjs
--   Chartjs
--   Blade
--   MySQL
--   XAMPP
--   JavaScript
--   HTML
--   CSS
--   Bootstrap
+-   [x] PHP
+-   [x] Laravel
+-   [x] Breeze
+-   [x] Swiperjs
+-   [x] Chartjs
+-   [x] Blade
+-   [x] MySQL
+-   [x] XAMPP
+-   [x] JavaScript
+-   [x] HTML
+-   [x] CSS
+-   [x] Bootstrap
 
 ## Prerequisites
 
@@ -45,10 +45,6 @@ API_TOKEN_URL = "https://api.petfinder.com/v2/oauth2/token"
 CLIENT_ID = Your API key
 CLIENT_SECRET = Your secret
 ```
-
-### Instructions to use the petfinder API
-
-To avoid code repetition the code to call the API is in the class RequestManager.php. Just call the getRequest method with your specific query String.
 
 ## Instructions to Run the Application
 
@@ -65,7 +61,7 @@ npm run dev
 Open a new terminal  
 php artisan serve
 
-## To run forgot password
+### To run forgot password
 
 First choose an email, it can be en email created just for testing, and follow the following steps:
 
