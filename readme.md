@@ -51,15 +51,17 @@ CLIENT_SECRET = Your secret
 clone the git repo  
 Create a .env file and copy the contents of .env.example to it and enter your credentials for MySQL database
 
-composer install  
-npm install  
-php artisan migrate  
-php artisan db:seed  
+```sh
+composer install
+npm install
+php artisan migrate
+php artisan db:seed
 php artisan db:seed --class=UserSeeder
 npm run dev
 
-Open a new terminal  
+Open a new terminal
 php artisan serve
+```
 
 ### To run forgot password
 
