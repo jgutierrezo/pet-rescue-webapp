@@ -1,8 +1,39 @@
-## **Project Phase 6**
+# Web Application to Adopt and put up for Adoption Pets
+
+## Overview
+
+Little Paws serves as a platform to adopt and put up for adoption pets. The user can filter for the pet of his preference from different parameters such as the animal type, the breed, the age, its location an more. An user with the role of admin can manage the pets, users and see the web application statistics.
+
+## Features
+
+-   [x] Register and Login Page
+-   [x] Forgot Password
+-   [x] Find Pets based on different filters
+-   [x] Contact current owner for adoption
+-   [x] Put up a pet for adoption
+-   [x] User(Profile, Settings)
+-   [x] Admin(Dashboard, Users, Pets) + User Features
+-   [x] FAQ
+-   [x] About Us
+-   [x] Contact Us
+
+## Technologies
+
+-   PHP
+-   Laravel
+-   Breeze
+-   Swiperjs
+-   Chartjs
+-   Blade
+-   MySQL
+-   XAMPP
+-   JavaScript
+-   HTML
+-   CSS
+-   Bootstrap
 
 ## Prerequisites
 
--   VS Code
 -   XAMPP
 -   Register in the **petfinder** API
 -   Generate the API key and secret
@@ -19,9 +50,20 @@ CLIENT_SECRET = Your secret
 
 To avoid code repetition the code to call the API is in the class RequestManager.php. Just call the getRequest method with your specific query String.
 
-### Postman
+## Instructions to Run the Application
 
-Import the PetFinder.postman_collection.json file to Postman to test the API.
+clone the git repo  
+Create a .env file and copy the contents of .env.example to it and enter your credentials for MySQL database
+
+composer install  
+npm install  
+php artisan migrate  
+php artisan db:seed  
+php artisan db:seed --class=UserSeeder
+npm run dev
+
+Open a new terminal  
+php artisan serve
 
 ## To run forgot password
 
@@ -47,49 +89,8 @@ MAIL_FROM_ADDRESS=youremail@gmail.com
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 
-## Instructions to Run the Application
-
-clone the git repo  
-Create a .env file and copy the contents of .env.example to it and enter your credentials for MySQL database
-
-composer install  
-npm install  
-php artisan migrate  
-php artisan db:seed  
-php artisan db:seed --class=UserSeeder
-npm run dev
-
-Open a new terminal  
-php artisan serve
-
-## Features
-
--   [x] Register and Login Page
--   [x] User(Profile, Add a new pet, Settings)
--   [x] Admin(Dashboard, Users, Pets) + User Features
--   [x] Find Pets based on different filters
--   [x] FAQ
--   [x] About Us
--   [x] Contact Us
-
-## Resources
-
--   Datbase: MySQL
--   Server: XAMPP
--   IDE: VS Code
--   Bootstrap, Laravel Breeze, DataTables, Swiperjs, Chartjs, Unsplash, Git and GitHub
-
-## Color Scheme
-black: hsl(276, 7%, 30%);  
-secondary: hsl(273, 96%, 36%);  
-hoverColor: hsl(273, 70%, 45%);  
-footer: hsl(260, 100%, 73%);  
-border: hsl(0, 0%, 82%);
-
-## Font
-Font Family: Roboto
-
 ## Contributors
+
 Juan Gutierrez [<img src="https://i.stack.imgur.com/gVE0j.png" alt="Linkedin">](https://www.linkedin.com/in/-juan-gutierrez/)  
 Jordan Chan [<img src="https://i.stack.imgur.com/gVE0j.png" alt="Linkedin">](https://www.linkedin.com/in/jordan-chan49/)  
 Rutvik Joshi [<img src="https://i.stack.imgur.com/gVE0j.png" alt="Linkedin">](https://www.linkedin.com/)  
