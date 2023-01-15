@@ -4,6 +4,12 @@
 
 Little Paws serves as a platform to adopt and put up for adoption pets. The user can filter for the pet of his preference from different parameters such as the animal type, the breed, the age, its location an more. An user with the role of admin can manage the pets, users and see the web application statistics.
 
+
+https://user-images.githubusercontent.com/61996882/212542075-06567445-fd91-42c4-8f6a-74d8c4c31f60.mov
+
+
+
+
 ## Features
 
 -   [x] Register and Login Page
