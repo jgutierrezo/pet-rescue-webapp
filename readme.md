@@ -1,4 +1,4 @@
-# Web Application to Adopt and put up for Adoption Pets
+# Little Paws
 
 ## Overview
 
@@ -18,7 +18,8 @@ https://user-images.githubusercontent.com/61996882/212542075-06567445-fd91-42c4-
 -   [x] Contact current owner for adoption
 -   [x] Put up a pet for adoption
 -   [x] User(Profile, Settings)
--   [x] Admin(Dashboard, Users, Pets) + User Features
+-   [x] Admin Dashboard (Web App statistics)
+-   [x] Admin can manage Users and Owners
 -   [x] FAQ
 -   [x] About Us
 -   [x] Contact Us
